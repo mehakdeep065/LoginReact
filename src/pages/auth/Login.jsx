@@ -1,5 +1,5 @@
 import Form from "../../components/form";
-import Text from "../../components/Texts";
+import Text from "../../components/Text";
 import Button from "../../components/buttons";
 import { Link } from "react-router-dom";
 function Login() {
