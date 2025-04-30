@@ -1,5 +1,5 @@
 import Form from "../../components/form";
-import Text from "../../components/Texts";
+import Text from "../../components/texts";
 import Button from "../../components/buttons";
 import { Link } from "react-router-dom";
 function Signup() {
@@ -17,7 +17,7 @@ function Signup() {
                 <div className="mt-1">
                     <p className="ml-0.5">Are you a company?<span className="text-red-800">*</span></p>
                     <div className="m-2">
-                        <label  ><input className="mr-2  " type="radio" name="company" id="company" value='yes' required style={{ accentColor: "#6C25FF" }} />Yes</label>
+                        <label><input className="mr-2  " type="radio" name="company" id="company" value='yes' required style={{ accentColor: "#6C25FF" }} />Yes</label>
                         <label><input className="mx-2" type="radio" name="company" id="company" value='no' required style={{ accentColor: "#6C25FF" }} />No</label>
                     </div>
                 </div>
