@@ -1,6 +1,6 @@
-import Form from "../../components/form";
-import Text from "../../components/Text";
-import Button from "../../components/buttons";
+import Form from "../components/form";
+import Text from "../components/Text";
+import Button from "../components/buttons";
 import { Link } from "react-router-dom";
 function Signup() {
     return (

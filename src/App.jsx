@@ -2,8 +2,8 @@ import { useState } from 'react'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css'
 import Landing from './pages/Landing';
-import Login from './pages/auth/Login';
-import Signup from './pages/auth/Signup';
+import Login from './pages/Login';
+import Signup from './pages/Signup';
 import Profile from './pages/Profile';
 
 function App() {
