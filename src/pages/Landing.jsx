@@ -1,5 +1,5 @@
 import Button from "../components/buttons";
-import Text from "../components/texts";
+import Text from "../components/Texts";
 import { Link } from "react-router-dom";
 
 function Landing() {
